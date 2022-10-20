@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(20, 118, 51);
+}
+.container {
+  height: 98vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.time {
+  color: white;
+  font-size: 150px;
+  box-sizing: border-box;
+  width: 70%;
+  border: solid #88af1f 25px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ul {
+  list-style: none;
+}
+li {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.options {
+  margin-top: 25px;
+}
